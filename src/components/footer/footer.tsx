@@ -1,7 +1,8 @@
+import styles from './footer.module.css';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <p>&copy; 2024 GitHub Finder</p>
         </footer>
     );
