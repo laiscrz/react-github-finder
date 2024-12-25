@@ -1,0 +1,140 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    background-color: #f4f4f9;
+    padding: 2rem;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+}
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.text {
+    flex: 1;
+    max-width: 500px;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #222;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .button {
+    display: inline-block;
+    padding: 15px 22px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #222831;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cta .button:hover {
+    background-color: #393e46;
+    transform: scale(1.05);
+}
+
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.features {
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(to right, #222831, #393e46);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.featuresTitle {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffd369;
+    ;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #30475e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #ffd369;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #d6d6d6;
+}
