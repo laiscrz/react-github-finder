@@ -1,0 +1,68 @@
+.input_container {
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input_container h2 {
+    color: #222;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.input_container p {
+    color: #555;
+    font-size: 1.5rem;
+}
+
+.input_group {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.input_group input {
+    flex: 1;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input_group input:focus {
+    border-color: #222831;
+    box-shadow: 0 0 5px rgba(34, 40, 49, 0.5);
+    outline: none;
+}
+
+.input_group button {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #222831;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.input_group button:hover {
+    background-color: #393e46;
+    transform: scale(1.05);
+}
+
+.input_group button:active {
+    transform: scale(0.95);
+}
