@@ -7,7 +7,7 @@ const Home = () => {
       <section className={styles.section}>
         <div className={styles.content}>
           <div className={styles.text}>
-            <h1 className={styles.title}>Bem-vindo ao GitHub Finder</h1>
+            <h1 className={styles.title}>Bem-vindo ao <br /> GitHub Finder</h1>
             <p className={styles.description}>
               Encontre repositórios e perfis incríveis no GitHub de forma fácil e rápida.
             </p>
